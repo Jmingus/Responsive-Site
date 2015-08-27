@@ -395,8 +395,17 @@ nav {
       color: #FEFEFE;
       font-size: 6em; }
     .plans-container .price-box .price-text.bot {
-      color: #A7C8A7;
       font-size: 20px; }
+      .plans-container .price-box .price-text.bot span.first-month {
+        color: #A6C7A6; }
+      .plans-container .price-box .price-text.bot span.second-month {
+        color: #94A3C1; }
+      .plans-container .price-box .price-text.bot span.third-month {
+        color: #828282; }
+  .plans-container .price-box.second {
+    background-color: #2B4885; }
+  .plans-container .price-box.third {
+    background-color: #101010; }
   .plans-container .options-box {
     height: 2.875em;
     border-top: 0.063em solid #E0E0E0;

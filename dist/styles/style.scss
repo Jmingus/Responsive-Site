@@ -57,12 +57,30 @@ nav{
     }
 
     .price-text.bot {
-      color: #A7C8A7;
       font-size: 20px;
+
+      span.first-month{
+        color: #A6C7A6;
+      }
+
+      span.second-month{
+        color: #94A3C1;
+      }
+
+      span.third-month{
+        color: #828282;
+      }
     }
 
   }
 
+  .price-box.second {
+    background-color: #2B4885;
+  }
+
+  .price-box.third{
+    background-color: #101010;
+  }
   .options-box{
     height: 2.875em;
     border-top: 0.063em solid #E0E0E0;
