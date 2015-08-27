@@ -1,0 +1,78 @@
+@import 'normalize';
+
+nav{
+  width: 100%;
+  text-align: center;
+  height: 2.938em;
+  line-height: 2.938em;
+  color: #797979;
+
+  .links{
+    font-size: 18px;
+    margin: 0 1.155em;
+  }
+
+}
+
+.pricing-image{
+  height: 12.500em;
+  background-image: url(../images/background.jpg);
+  padding: 4em 0;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+
+  .pricing-text{
+    font-size: 30px;
+    text-align: center;
+    color: #FDFDFD;
+  }
+}
+
+.plans-container{
+  margin: 2.188em 0.625em;
+  height: 35.875em;
+  border: 0.063em solid #E0E0E0;
+
+  .price-box{
+    height: 13.750em;
+    background: #4F934E;
+    padding: 2.125em 0;
+    box-sizing: border-box;
+
+    .price-text{
+      text-align: center;
+
+    }
+
+    .price-text.top {
+      color: #FAFBFA;
+      font-size: 18px;
+    }
+
+    .price-text.mid {
+      color: #FEFEFE;
+      font-size: 6em;
+
+    }
+
+    .price-text.bot {
+      color: #A7C8A7;
+      font-size: 18px;
+    }
+
+  }
+
+  .options-box{
+    height: 2.875em;
+    border-top: 0.063em solid #E0E0E0;
+    background: #F7F7F7;
+
+  }
+  .options-box.last-option{
+    border-bottom: 0.063em solid #E0E0E0;
+  }
+
+  .choose-button{
+
+  }
+}
