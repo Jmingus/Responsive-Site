@@ -150,3 +150,41 @@ footer{
     color: #DDDDDD;
   }
 }
+
+@media screen and (min-width: 29.875em){
+  .pricing-image{
+    height: 25em;
+    padding: 10em 0;
+
+    .pricing-text{
+      font-size: 45px;
+    }
+  }
+}
+
+@media screen and (min-width: 47.938em){
+  nav{
+    .links{
+      float: left;
+    }
+  }
+
+  .plans-container-whitespace{
+    width: 33.33%;
+    display: inline-block;
+    border: .5em solid white;
+    box-sizing: border-box;
+
+    .plans-container{
+      margin: 0;
+      .price-box{
+        .price-text.top{
+          font-size: 16px;
+        }
+        .price-text.mid {
+          font-size: 5.5em;
+        }
+      }
+    }
+  }
+}
