@@ -389,16 +389,28 @@ nav {
       text-align: center; }
     .plans-container .price-box .price-text.top {
       color: #FAFBFA;
-      font-size: 18px; }
+      font-size: 18px;
+      letter-spacing: 0.3em; }
     .plans-container .price-box .price-text.mid {
       color: #FEFEFE;
       font-size: 6em; }
     .plans-container .price-box .price-text.bot {
       color: #A7C8A7;
-      font-size: 18px; }
+      font-size: 20px; }
   .plans-container .options-box {
     height: 2.875em;
     border-top: 0.063em solid #E0E0E0;
-    background: #F7F7F7; }
+    background: #F7F7F7;
+    color: #5A676D;
+    text-align: center;
+    line-height: 2.875em; }
   .plans-container .options-box.last-option {
     border-bottom: 0.063em solid #E0E0E0; }
+  .plans-container .choose-button-container {
+    text-align: center;
+    line-height: 4.563em; }
+    .plans-container .choose-button-container .choose-button {
+      border: 0.120em solid #E0E0E0;
+      border-radius: 6em;
+      padding: 0.600em;
+      font-weight: bold; }

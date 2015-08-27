@@ -67,7 +67,7 @@ gulp.task('serve-sass', function() {
 	return gulp.src('styles/**/*.{scss,sass}')
 	.pipe(sass({
 		errLogToConsole: true
-	}))
+	}).on('error', sass.logError))
 	.on('error', function(err) {
 		console.log(err);
 	})
@@ -131,7 +131,7 @@ gulp.task('sass', ['copy'], function() {
 	var pi = gulp.src('styles/**/*.{scss,sass}')
 	.pipe(sass({
 		errLogToConsole: true
-	}))
+	}).on('error', sass.logError))
 	.on('error', function(err) {
 		console.log(err);
 	})
