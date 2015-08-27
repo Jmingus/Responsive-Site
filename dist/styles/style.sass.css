@@ -423,3 +423,34 @@ nav {
       border-radius: 6em;
       padding: 0.600em;
       font-weight: bold; }
+
+article {
+  margin: 2.625em; }
+  article .heading {
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    margin-bottom: 1.2em; }
+  article .paragraph {
+    line-height: 1.5em;
+    color: #5C696F;
+    margin-bottom: 3.938em; }
+
+article.top-article {
+  margin-top: 6em; }
+
+article.bottom-article {
+  margin-bottom: 1.9em; }
+  article.bottom-article .paragraph {
+    margin-bottom: none; }
+
+footer {
+  height: 6.250em;
+  background-color: #101010;
+  color: #808080;
+  text-align: center;
+  padding: 1.75em 0;
+  box-sizing: border-box;
+  line-height: 1.5em; }
+  footer .footer-link {
+    text-decoration: underline;
+    color: #DDDDDD; }
