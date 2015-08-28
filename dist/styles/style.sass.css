@@ -501,4 +501,5 @@ footer {
   .pricing-image {
     background-size: cover; }
   main {
-    padding: 0 15%; } }
+    width: 61.125em;
+    margin: 0 auto; } }
