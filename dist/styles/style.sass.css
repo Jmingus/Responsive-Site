@@ -484,10 +484,16 @@ footer {
       width: 50%;
       margin: 0;
       margin-right: -0.25em;
-      padding: 0.5em 1em;
+      padding: 0.5em 1.5em;
       box-sizing: border-box;
       vertical-align: top; }
       section article .paragraph {
         margin-bottom: 0; }
     section article.top-article {
       margin-top: 0; } }
+
+@media screen and (min-width: 61.188em) {
+  .pricing-image {
+    background-size: cover; }
+  main {
+    padding: 0 15%; } }
