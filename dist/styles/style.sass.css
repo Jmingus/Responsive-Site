@@ -362,8 +362,8 @@ nav {
   line-height: 2.938em;
   color: #797979; }
   nav .links {
-    font-size: 18px;
-    margin: 0 1.155em; }
+    font-size: 16px;
+    margin: 0 0.5em; }
 
 .pricing-image {
   height: 12.500em;
@@ -454,6 +454,11 @@ footer {
   footer .footer-link {
     text-decoration: underline;
     color: #DDDDDD; }
+
+@media screen and (min-width: 28.313em) {
+  nav .links {
+    font-size: 18px;
+    margin: 0 1.155em; } }
 
 @media screen and (min-width: 29.875em) {
   .pricing-image {
