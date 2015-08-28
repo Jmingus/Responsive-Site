@@ -469,10 +469,25 @@ footer {
     width: 33.33%;
     display: inline-block;
     border: .5em solid white;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    margin-right: -0.25em; }
     .plans-container-whitespace .plans-container {
       margin: 0; }
       .plans-container-whitespace .plans-container .price-box .price-text.top {
         font-size: 16px; }
       .plans-container-whitespace .plans-container .price-box .price-text.mid {
-        font-size: 5.5em; } }
+        font-size: 5.5em; }
+  section {
+    padding: 2em 0.5em; }
+    section article {
+      display: inline-block;
+      width: 50%;
+      margin: 0;
+      margin-right: -0.25em;
+      padding: 0.5em 1em;
+      box-sizing: border-box;
+      vertical-align: top; }
+      section article .paragraph {
+        margin-bottom: 0; }
+    section article.top-article {
+      margin-top: 0; } }
